@@ -130,7 +130,8 @@
           <!--/.Carousel Wrapper-->
         </div>
         <div class="col-lg-8 mt-5">
-          <img src="@/assets/images/56.jpg" width="100%" class="modelpic" alt="" srcset="" />
+          <!-- <img src="../assets/images/56.jpg" width="100%" class="modelpic" alt="" srcset="" /> -->
+          <img src="../assets/images/2.jpg" class="w-100" alt="" srcset="">
         </div>
         <div class="col-lg-4 mt-5">
           <h4 class="Models">100+ Models Available</h4>
@@ -219,8 +220,8 @@ export default {};
 }
 
 .col1 {
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('@assets/images/4.jpg'); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../assets/images/4.jpg');
   background-position: top;
   background-size: cover;
   height: 560px;
@@ -260,7 +261,7 @@ export default {};
 
 .Powerful {
   font-weight: 600;
-  padding: 0px 250px;
+  padding: 0px auto;
   margin-top: 50px;
   color: white;
 }
