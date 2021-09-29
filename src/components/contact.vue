@@ -1,10 +1,10 @@
 <template>
   <div>
-         <div class="bg-info w-100 col1">
+         <div class="bg-info w-100 col3">
 
    </div>
-    <div class="container ">
-            <div class="row px-5  col2 ">
+    <div class="container mb-3">
+            <div class="row px-5  col4 ">
                 <div class="col-lg-8 bg-light  shadow">
                     <h4 class="p-lg-3 ">Send us a message</h4>
                     <form action="" class="pb-4">
@@ -37,7 +37,7 @@
                         <button class="btn btn-info px-5"> Submit</button>
                     </form>
                 </div>
-                <div class="col-lg-4 p-2 p-3 text-white shadow bg-secondary">
+                <div class="col-lg-4   p-3 text-white shadow bg-secondary">
                     <h4>Contact Information</h4>
                     <p>
                         Lorem ipsum dolor sit amet, consec tetur adipis icing elit. Molestias, magnam!
@@ -68,11 +68,11 @@ export default {
 </script>
 
 <style  >
- .col1{
+ .col3{
         min-height: 200px;
     }
     
-    .col2 {
+    .col4 {
         margin-top: -160px;
     }
 
