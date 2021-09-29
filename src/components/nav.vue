@@ -23,7 +23,8 @@
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link  " href="#">Interior Design</a>
+          <router-link to="/interrior" class="nav-link  ">
+      Interior Design </router-link>
         </li>
         <li class="nav-item">
           <router-link to="/blog" class="nav-link  ">
@@ -33,6 +34,16 @@
         <li class="nav-item">
           <router-link to="/contact" class="nav-link  "
             >Contact us</router-link
+          >
+        </li>
+        <li class="nav-item">
+          <router-link to="/login" class="nav-link  "
+            >Log in</router-link
+          >
+        </li>
+        <li class="nav-item">
+          <router-link to="/signup" class="nav-link  "
+            >Sign up</router-link
           >
         </li>
       </ul>
@@ -45,8 +56,5 @@ export default {};
 </script>
 
 <style>
-
-.navbar-link{
  
-}
 </style>
