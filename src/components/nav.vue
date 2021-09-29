@@ -30,9 +30,9 @@
 -->
 
   <nav class="navbar navbar-light bg-secondary">
-    <a class="navbar-brand" href="#">
-      <img src="@/assets/images/logo.png" class="w-50" alt="" srcset=""
-    /></a>
+    <router-link to="/blog" class="navbar-brand">
+           <img src="@/assets/images/logo.png" class="w-50" alt="" srcset=""
+    /> </router-link>
     <button
       class="navbar-toggler"
       type="button"
